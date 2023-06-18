@@ -30,7 +30,7 @@ Yu-Gi-Oh! AR Kart Oyunu, hem Yu-Gi-Oh! fanlarına hem de yeni oyunculara hitap e
 
 - Artırılmış gerçeklik (AR) teknolojisiyle gerçek dünyayı sanal bir ortamla birleştirir.
 - Fiziksel Yu-Gi-Oh! kartlarını kullanarak oyunu gerçek dünyada oynama imkanı sunar.
-- Kartlar canlı karakterlere dönüşerek hareketli bir şekilde savaşır ve özel yeteneklerini sergiler
+- Kartlar canlı karakterlere dönüşerek hareketli bir şekilde savaşır ve özel yeteneklerini sergiler.
 - Çoklu oyuncu moduyla arkadaşlarınızla veya çevrimiçi rakiplerle oynama imkanı sunar.
 
 ## Hedef Kitle
@@ -49,7 +49,7 @@ Yu-Gi-Oh! AR Kart Oyunu, hem Yu-Gi-Oh! fanlarına hem de yeni oyunculara hitap e
 - **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verilmiştir.
 
 
-- **Daily Scrum**: Daily Scrum toplantılarının takımdaki kişilerin iş ve final sınavları göz önünde bulundurularak çoğunlukla Whatsapp üzerinden yapılmasına karar verilmiştir.Bunun yanında kurulan discord kanalı üzerinden, sürecin devamlılığı ve prrojenin geliştirilmesi adına müsait takım üyelerinin katılımıyla toplantılar düzenlenmiştir. Sprint 1 Daily Scrum Chats Örneği: https://docs.google.com/document/d/1vySK1uO7mqEGa9BIZlQ3aw9IVbxwbBHkjLcoWDPqMvI/edit?usp=sharing
+- **Daily Scrum**: Daily Scrum toplantılarının takımdaki kişilerin iş ve final sınavları göz önünde bulundurularak çoğunlukla Whatsapp üzerinden yapılmasına karar verilmiştir.Bunun yanında kurulan discord kanalı üzerinden, sürecin devamlılığı ve projenin geliştirilmesi adına belirli zamanlarda toplantılar gerçekleştirilmiştir. Sprint 1 Daily Scrum Chats Örneği: https://docs.google.com/document/d/1vySK1uO7mqEGa9BIZlQ3aw9IVbxwbBHkjLcoWDPqMvI/edit?usp=sharing
 - **Sprint board update**: Sprint board screenshotları:  
 <h1>
 <div id="header" align="center"> 
