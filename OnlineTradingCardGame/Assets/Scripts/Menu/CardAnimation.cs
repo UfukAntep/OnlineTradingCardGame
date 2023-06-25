@@ -51,7 +51,7 @@ public class CardAnimation : MonoBehaviour
 
     private IEnumerator MoveToCenter()
     {
-        Vector3 targetPosition = new Vector3(0f, 0f, 0f);
+        Vector3 targetPosition = new Vector3(0f, 0f, 10f);
         Quaternion targetRotation = Quaternion.Euler(0f, 0f, 0f);
 
         float t = 0f;

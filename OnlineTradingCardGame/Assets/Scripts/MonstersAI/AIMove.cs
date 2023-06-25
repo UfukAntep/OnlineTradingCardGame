@@ -146,7 +146,5 @@ public class AIMove : MonoBehaviour
         Debug.Log("stop and idle time");
         transform.position = _spawnPos;
         _controller.SetStateType(this);
-        
-        HandleIdle();
     }
 }
