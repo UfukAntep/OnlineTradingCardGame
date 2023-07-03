@@ -83,3 +83,47 @@ Yu-Gi-Oh! AR Kart Oyunu, hem Yu-Gi-Oh! fanlarına hem de yeni oyunculara hitap e
 
 
 ---
+
+# Sprint 2
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verilmiştir.
+
+
+- **Daily Scrum**: Daily Scrum toplantılarının takımdaki kişilerin iş ve yoğunlukları göz önünde bulundurularak çoğunlukla Whatsapp üzerinden yapılması kararı devam ettirilmiştir.Bunun yanında kurulan discord kanalı üzerinden, sürecin devamlılığı ve projenin geliştirilmesi adına belirli zamanlarda toplantılar gerçekleştirilmiştir. Sprint 2 Daily Scrum Chats Örneği: https://docs.google.com/document/d/1vySK1uO7mqEGa9BIZlQ3aw9IVbxwbBHkjLcoWDPqMvI/edit?usp=sharing
+- **Sprint board update**: Sprint board screenshotları:  
+<h1>
+<div id="header" align="center"> 
+ <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1125212387545456802/image.png" width="800px"/>
+ </h1>
+
+- **Ürün Durumu**: Ekran görüntüleri:
+ <h1>
+<div id="header" align="center"> 
+ <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1125086256259412048/ezgif.com-gif-maker_10.gif" width="800px"/>
+ </h1>
+ <h1>
+<div id="header" align="center"> 
+ <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1125090303880204318/ezgif.com-gif-maker_10.gif" width="800px"/>
+ </h1>
+ <h1>
+<div id="header" align="center"> 
+ <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1125216845289492480/aa.png" width="800px"/>
+ </h1>
+ 
+  
+ **Sprint Review**: Alınan kararlar: Oyunun menu tasarımı yapıldı.Buna ek olarak belirlenen karakterler ve animasyonlar projeye eklendi fakat bazı karakterlerin dosyalarında çıkan problem sebebiyle değiştirlmesine karar verildi.Vuforia sistemi için düzenlemelere başlandı, fakat planlanan ilerleme sağlanamadı,bir dahaki sprintte bitirilmek üzere devam edilmesi kararlaştırılmıştır. Sprint Review katılımcıları: Tüm takım tarafından onaylanmıştır.
+
+  **Sprint Retrospective:**
+- Projede bazı planlanan fakat bu sprintte bitirilemeyen kısımların gelecek sprintte öncelikli şekilde bitirilmesi kararlaştırıldı.
+- Projenin son teslimi olması sebebiyle oyunun ana mekanikleriyle sisteminin oluşturulması, daha sonrasında extra mekanikler,karakterler ve özellikler eklenmesi
+kararlaştırıldı.
+
+   
+- **Sprint Notları:**
+Son sprinte girerken discord toplantılarını arttırarak daha hızlı bir ilerleme ile projeyi tamamlamayı hedefliyoruz.
+
+---
+
