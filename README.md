@@ -122,7 +122,7 @@ Yu-Gi-Oh! AR Kart Oyunu, hem Yu-Gi-Oh! fanlarına hem de yeni oyunculara hitap e
 kararlaştırıldı.
 
    
-- **Sprint Notları:**
+  **Sprint Notları:**
 Son sprinte girerken discord toplantılarını arttırarak daha hızlı bir ilerleme ile projeyi tamamlamayı hedefliyoruz.
 
 ---
