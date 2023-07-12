@@ -1,8 +1,7 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
+using TMPro;
+using System.Collections;
 
 public class GameManager : SingletonDestroy<GameManager>
 {
@@ -11,6 +10,14 @@ public class GameManager : SingletonDestroy<GameManager>
 
     public TeamColor PlayableColor;
     public TeamColor PlayerColor;
+    
+    public TextMeshProUGUI turnText;
+
+    private void Start()
+    {
+        turnText.text = "Your Turn";
+    }
+
     public void BeginGame()
     {
         GameUtils.GameResume();
@@ -31,10 +38,22 @@ public class GameManager : SingletonDestroy<GameManager>
         {
             case TeamColor.Blue:
                 PlayableColor = TeamColor.Red;
+                StartCoroutine(TurnTextState(true, 0f));
+                turnText.text = "Opponent Turn";
+                StartCoroutine(TurnTextState(false, 3f));
                 break;
             case TeamColor.Red:
                 PlayableColor = TeamColor.Blue;
+                StartCoroutine(TurnTextState(true, 0f));
+                turnText.text = "Your Turn";
+                StartCoroutine(TurnTextState(false, 3f));
                 break;
         }
+    }
+
+    private IEnumerator TurnTextState(bool state, float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+        turnText.gameObject.SetActive(state);
     }
 }

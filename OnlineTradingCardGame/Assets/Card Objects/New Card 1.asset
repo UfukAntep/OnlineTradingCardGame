@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: New Card 1
   m_EditorClassIdentifier: 
   monsterName: card 1
-  monsterObject: {fileID: 3285977824772945733, guid: dcd65502e159b2a439df4cbb948370ee, type: 3}
+  monsterObject: {fileID: 6729505432890054191, guid: a27e9bcfe86457246adc266585e0ee7d, type: 3}
   frontSide: {fileID: 21300000, guid: 10cfb5f1b3eafe34fb1e5176448b1c5e, type: 3}
   backSide: {fileID: 21300000, guid: 10cfb5f1b3eafe34fb1e5176448b1c5e, type: 3}
   attack: 3

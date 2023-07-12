@@ -28,7 +28,11 @@ public class EntityController : MonoBehaviour
         
         _stateMachine.SetNormalStates(walkState,attackState, () => _nextState == StateType.Attack);
         
-        _stateMachine.SetState(idleState);
+        _stateMachine.SetNormalStates(attackState,walkState, () => _nextState == StateType.Walk);
+        
+        _stateMachine.SetNormalStates(attackState,idleState, () => _nextState == StateType.Idle);
+        
+        _stateMachine.SetAnyStates(idleState, () => _nextState == StateType.Idle);
     }
 
     public void SetStateType(AIMove aiMove)

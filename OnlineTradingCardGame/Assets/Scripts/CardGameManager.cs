@@ -17,7 +17,7 @@ public class CardGameManager : SingletonDestroy<CardGameManager>
 
     public List<GameObject> playerMonsters;
     public List<GameObject> enemyMonsters;
-
+    
     // Oyun durumu
     public bool playerTurn = true;
 
@@ -62,11 +62,13 @@ public class CardGameManager : SingletonDestroy<CardGameManager>
         {
             enemySlots[emptySlotIndex].GetComponent<CardSlot>().PlaceCard(cardToPlay);
             CheckMonsters();
+            StartCoroutine(MonstersCanAttack(enemyMonsters, 2f));
             opponentHand.Remove(cardToPlay);
         }
         
         playerTurn = true;
         PlayerMonstersCanAttack(true);
+        StartCoroutine(MonstersCanAttack(playerMonsters, 2f));
         GameManager.Instance.SwitchTurn();
     }
 
@@ -88,5 +90,14 @@ public class CardGameManager : SingletonDestroy<CardGameManager>
             }
         }
         return -1;
+    }
+
+    IEnumerator MonstersCanAttack(List<GameObject> monsters, float waitTime)
+    {
+        for (int i = 0; i < monsters.Count; i++)
+        {
+            yield return new WaitForSeconds(waitTime);
+            monsters[i].GetComponent<AIMove>().canAttack = true;
+        }
     }
 }

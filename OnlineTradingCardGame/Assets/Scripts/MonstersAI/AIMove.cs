@@ -1,5 +1,6 @@
+using System.Collections;
 using UnityEngine;
-using UnityEngine.Serialization;
+
 
 public class AIMove : MonoBehaviour
 {
@@ -8,8 +9,8 @@ public class AIMove : MonoBehaviour
     public Card stats;
     public TeamColor team;
     public bool isAttacked;
-    
-    
+    public bool canAttack;
+
     public StateType CurrentStateType;
     public StateType NextStateType;
     public Transform CurrentTarget;
@@ -26,6 +27,7 @@ public class AIMove : MonoBehaviour
         NextStateType = StateType.Idle;
         _rb = GetComponent<Rigidbody>();
         isAttacked = false;
+        canAttack = false;
     }
 
     private void Start()
@@ -37,6 +39,8 @@ public class AIMove : MonoBehaviour
         stats = transform.parent.GetComponent<CardSlot>()._card;
         team = transform.parent.GetComponent<CardSlot>().Team;
         _controller.SetStateType(this);
+        
+        if(team == TeamColor.Red) transform.rotation = new Quaternion(0, 1, 0, 0);
     }
 
     private void Update()
@@ -54,7 +58,7 @@ public class AIMove : MonoBehaviour
                 HandleIdle();
                 break;
             case StateType.Walk:
-                HandleWalk();
+                if (canAttack) HandleWalk();
                 break;
         }
     }
@@ -66,7 +70,7 @@ public class AIMove : MonoBehaviour
        
         GetTarget();
 
-        if (NextTarget != CurrentTarget && !isAttacked && NextTarget != null)
+        if (NextTarget != CurrentTarget && !isAttacked && NextTarget != null && canAttack)
         {
             HandleWalk();
         }
@@ -94,7 +98,7 @@ public class AIMove : MonoBehaviour
 
     public void HandleWalk()
     {
-        if (Vector3.Distance(NextTarget.position, transform.position) > 2f)
+        if (Vector3.Distance(NextTarget.position, transform.position) > 3f)
         {
             _rb.freezeRotation = false;
             transform.LookAt(NextTarget);
@@ -106,14 +110,14 @@ public class AIMove : MonoBehaviour
             _controller.SetStateType(this);
         }
         
-        if (team == GameManager.Instance.PlayableColor && Vector3.Distance(NextTarget.position, transform.position) < 2f)
+        if (team == GameManager.Instance.PlayableColor && Vector3.Distance(NextTarget.position, transform.position) < 3f)
         {
             if(!isAttacked)
             {
                 _rb.velocity = Vector3.zero;
                 Debug.Log(name + " " + team + " attacking");
                 isAttacked = true;
-                Invoke("StartAttack", 1f);
+                StartAttack();
             }
         }
     }
@@ -125,26 +129,29 @@ public class AIMove : MonoBehaviour
         _controller.SetStateType(this);
         
         HitEnemy();
-        StopAttack();
+        //Invoke("StopAttack", 1.5f);
     }
 
     private void HitEnemy()
     {
         if(NextTarget != transform) NextTarget.GetComponent<Health>().GetHit(stats.attack);
+        canAttack = false;
     }
 
+    //thats function called by anim events
     public void StopAttack()
     {
         CurrentStateType = StateType.Attack;
         NextStateType = StateType.Idle;
+        _controller.SetStateType(this);
         
         NextTarget = CurrentTarget;
-        transform.rotation = new Quaternion(0, 0, 0, 1);
+        transform.rotation = new Quaternion(0, 0, 0, 0);
+        if(team == TeamColor.Red) transform.rotation = new Quaternion(0, 1, 0, 0);
         _rb.freezeRotation = true;
         _rb.velocity = Vector3.zero;
         
         Debug.Log("stop and idle time");
         transform.position = _spawnPos;
-        _controller.SetStateType(this);
     }
 }
