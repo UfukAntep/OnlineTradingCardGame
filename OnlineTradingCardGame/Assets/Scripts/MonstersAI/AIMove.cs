@@ -145,13 +145,18 @@ public class AIMove : MonoBehaviour
         NextStateType = StateType.Idle;
         _controller.SetStateType(this);
         
+        Invoke("StopAttackwithDelay", .5f);
+    }
+
+    private void StopAttackwithDelay()
+    {
         NextTarget = CurrentTarget;
         transform.rotation = new Quaternion(0, 0, 0, 0);
         if(team == TeamColor.Red) transform.rotation = new Quaternion(0, 1, 0, 0);
         _rb.freezeRotation = true;
         _rb.velocity = Vector3.zero;
         
-        Debug.Log("stop and idle time");
+        Debug.Log(name + " " + team + " stop and idle time");
         transform.position = _spawnPos;
     }
 }

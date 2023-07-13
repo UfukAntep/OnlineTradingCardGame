@@ -269,7 +269,7 @@ GameObject:
   - component: {fileID: -2124198883651172172}
   - component: {fileID: -5622169748041272395}
   m_Layer: 0
-  m_Name: Grunt
+  m_Name: Grung
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

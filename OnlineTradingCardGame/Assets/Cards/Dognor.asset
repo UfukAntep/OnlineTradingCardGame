@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c588747e6edae2f4cbb38e80f63d64c6, type: 3}
-  m_Name: New Card 6
+  m_Name: Dognor
   m_EditorClassIdentifier: 
-  monsterName: card 6
-  monsterObject: {fileID: 6729505432890054191, guid: a27e9bcfe86457246adc266585e0ee7d, type: 3}
-  frontSide: {fileID: 21300000, guid: 10cfb5f1b3eafe34fb1e5176448b1c5e, type: 3}
-  backSide: {fileID: 21300000, guid: 10cfb5f1b3eafe34fb1e5176448b1c5e, type: 3}
-  attack: 10
-  health: 3
+  monsterName: card 5
+  monsterObject: {fileID: 1067925524328404, guid: 099ece83f393f234fa55a2168b03745d, type: 3}
+  frontSide: {fileID: 21300000, guid: 1af581a33e1721c43bd8ca9d9a240d85, type: 3}
+  backSide: {fileID: 21300000, guid: 1af581a33e1721c43bd8ca9d9a240d85, type: 3}
+  attack: 1
+  health: 30
   cost: 0

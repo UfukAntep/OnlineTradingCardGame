@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c588747e6edae2f4cbb38e80f63d64c6, type: 3}
-  m_Name: New Card 7
+  m_Name: Green
   m_EditorClassIdentifier: 
-  monsterName: card 7
-  monsterObject: {fileID: 1067925524328404, guid: 099ece83f393f234fa55a2168b03745d, type: 3}
-  frontSide: {fileID: 21300000, guid: 1af581a33e1721c43bd8ca9d9a240d85, type: 3}
-  backSide: {fileID: 21300000, guid: 1af581a33e1721c43bd8ca9d9a240d85, type: 3}
+  monsterName: card 0
+  monsterObject: {fileID: 3730650081903759050, guid: 2cc336044ae93524897ad12cdc676adc, type: 3}
+  frontSide: {fileID: 21300000, guid: 5bd1dcf46865b1b4a9999d2c26797217, type: 3}
+  backSide: {fileID: 21300000, guid: 5bd1dcf46865b1b4a9999d2c26797217, type: 3}
   attack: 3
-  health: 7
+  health: 15
   cost: 0

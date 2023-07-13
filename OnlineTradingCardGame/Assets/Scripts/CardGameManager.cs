@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
 public class CardGameManager : SingletonDestroy<CardGameManager>
@@ -17,7 +18,7 @@ public class CardGameManager : SingletonDestroy<CardGameManager>
 
     public List<GameObject> playerMonsters;
     public List<GameObject> enemyMonsters;
-    
+
     // Oyun durumu
     public bool playerTurn = true;
 
@@ -62,13 +63,13 @@ public class CardGameManager : SingletonDestroy<CardGameManager>
         {
             enemySlots[emptySlotIndex].GetComponent<CardSlot>().PlaceCard(cardToPlay);
             CheckMonsters();
-            StartCoroutine(MonstersCanAttack(enemyMonsters, 2f));
+            StartCoroutine(MonstersCanAttack(enemyMonsters, 1.5f));
             opponentHand.Remove(cardToPlay);
         }
         
         playerTurn = true;
         PlayerMonstersCanAttack(true);
-        StartCoroutine(MonstersCanAttack(playerMonsters, 2f));
+        StartCoroutine(MonstersCanAttack(playerMonsters, 1.5f));
         GameManager.Instance.SwitchTurn();
     }
 

@@ -80,7 +80,7 @@ GameObject:
   - component: {fileID: -2362528235936002795}
   - component: {fileID: 3210005587171761841}
   m_Layer: 0
-  m_Name: Golem
+  m_Name: Dognor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
