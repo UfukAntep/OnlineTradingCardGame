@@ -135,10 +135,14 @@ Son sprinte girerken discord toplantılarını arttırarak daha hızlı bir iler
 
 
 - **Daily Scrum**: Daily Scrum toplantılarının takımdaki kişilerin iş ve yoğunlukları göz önünde bulundurularak çoğunlukla Whatsapp üzerinden yapılması kararı devam ettirilmiştir.Bunun yanında kurulan discord kanalı üzerinden, sürecin devamlılığı ve projenin geliştirilmesi adına belirli zamanlarda toplantılar gerçekleştirilmiştir. Sprint 3 Daily Scrum Chats Örneği: https://docs.google.com/document/d/1vySK1uO7mqEGa9BIZlQ3aw9IVbxwbBHkjLcoWDPqMvI/edit?usp=sharing
-- **Sprint board update**: Sprint board screenshotları:  
+- **Sprint board update**: Sprint board screenshotları:
+   <h1>
+<div id="header" align="center"> 
+ <img src="https://cdn.discordapp.com/attachments/1044685678497255458/1130266795610210464/image.png" width="800px"/>
+ </h1>
 
 - **Ürün Durumu**: Ekran görüntüleri:
- <h1>
+
 <div id="header" align="center"> 
  <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1130235938790969384/WhatsApp_Image_2023-07-16_at_23.19.35.jpg" width="800px"/>
  </h1>
@@ -150,16 +154,21 @@ Son sprinte girerken discord toplantılarını arttırarak daha hızlı bir iler
 <div id="header" align="center"> 
  <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1130238853274402816/aa.jpg" width="800px"/>
  </h1>
+
+
+	
+	
+	
+**Sprint Review:** Alınan kararlar:Son sprint olan bu sprintte eski sprintteki tamamlanmamış kısımları öncelikli tutup, büyük oranda oyunumuzu tamamlamaya çalıştık.Karakter assetlerinin bazılarında sorun olduğu için burada bir revizeye gidip, oyuna ilk sprintte başladığımız karakterlerden farklı karakterler entegre ederek, durumu en kısa sürede telafi ettik.Sprint Review katılımcıları: Tüm takım tarafından onaylanmıştır.
  
-  
- **Sprint Review**: Alınan kararlar: Son sprint olan bu sprintte eski sprintteki tamamlanmamış kısımları öncelikli tutup, büyük oranda oyunumuzu tamamlamaya çalıştık.Karakter assetlerinin bazılarında sorun olduğu için burada bir revizeye gidip, oyuna ilk sprintte başladığımız karakterlerden farklı karakterler entegre ederek, durumu en kısa sürede telafi ettik.Sprint Review katılımcıları: Tüm takım tarafından onaylanmıştır.
+ **Sprint Retrospective:**   Sürecin ilerleyişi adına düşündüğümüz planlamaları uygulamaya geçirme kısımlarında biraz zorlandık.Gerek bireysel yoğunluk gerekse farklı sebebeplerden hızımızı bir türlü istediğimiz seviyede tutamadık.Görev dağılımı süreçlerinde de tabiki herkesin kodlama ve diğer bilgileri dahilinde bir dağılım sergilemek istesekte bazı kısımlarda iş yükü paylaşımında dengesizlikler yaşadık.Ama sürecin sonuna geldiğimizde takım olarak başladığımız bu projeyi takım olarak bitirmiş bulunuyoruz.Herkesin az çok demeden verdiği emekten mutluluk duyuyoruz.
 
- **Sprint Retrospective:**
-Sürecin ilerleyişi adına düşündüğümüz planlamaları uygulamaya geçirme kısımlarında biraz zorlandık.Gerek bireysel yoğunluk gerekse farklı sebebeplerden hızımızı bir türlü istediğimiz seviyede tutamadık.Görev dağılımı süreçlerinde de tabiki herkesin kodlama ve diğer bilgileri dahilinde bir dağılım sergilemek istesekte bazı kısımlarda iş yükü paylaşımında dengesizlikler yaşadık.Ama sürecin sonuna geldiğimizde takım olarak başladığımız bu projeyi takım olarak bitirmiş bulunuyoruz.Herkesin az çok demeden verdiği emekten mutluluk duyuyoruz.
+Son olarak,bu süreç boyunca desteklerini esirgemeyen Oyun Ve Uygulama Akademisi' ne, bize mentorluk için atanmış asistanımıza her şey için teşekkür ediyoruz.
 
-Son olarak,bu süreç boyunca desteklerini esirgemeyen Oyun Ve Uygulama Akademisine, bize mentorluk için atanmış asistanımıza her şey için teşekkür ediyoruz.
+ **Sprint Notları:** Oyunumuzda iki mod bulunmakta ilk modda single player modu ile yu gi oh card oyunundaki gibi bilgisayara karşı karakterleri savaştırabilirsiniz,diğer bir modda ar teknolojisini kullanarak oyundaki tüm karakterleri detaylı inceleyebilirsiniz.Aşağıda oyunda kullanılan tüm karakterlerin kart tasarımları yer almaktadır.
+ 
 
- **Sprint Notları:**
+
   <h1>
 <div id="header" align="center"> 
  <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1128751797314539572/dragon1_card.jpg" width="400px"/>
