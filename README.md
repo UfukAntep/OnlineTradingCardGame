@@ -134,20 +134,74 @@ Son sprinte girerken discord toplantılarını arttırarak daha hızlı bir iler
 - **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde üçüncü yani son sprint'in 140 puan olması gerektiğine karar verilmiştir.
 
 
-- **Daily Scrum**: Daily Scrum toplantılarının takımdaki kişilerin iş ve yoğunlukları göz önünde bulundurularak çoğunlukla Whatsapp üzerinden yapılması kararı devam ettirilmiştir.Bunun yanında kurulan discord kanalı üzerinden, sürecin devamlılığı ve projenin geliştirilmesi adına belirli zamanlarda toplantılar gerçekleştirilmiştir. Sprint 2 Daily Scrum Chats Örneği: https://docs.google.com/document/d/1vySK1uO7mqEGa9BIZlQ3aw9IVbxwbBHkjLcoWDPqMvI/edit?usp=sharing
+- **Daily Scrum**: Daily Scrum toplantılarının takımdaki kişilerin iş ve yoğunlukları göz önünde bulundurularak çoğunlukla Whatsapp üzerinden yapılması kararı devam ettirilmiştir.Bunun yanında kurulan discord kanalı üzerinden, sürecin devamlılığı ve projenin geliştirilmesi adına belirli zamanlarda toplantılar gerçekleştirilmiştir. Sprint 3 Daily Scrum Chats Örneği: https://docs.google.com/document/d/1vySK1uO7mqEGa9BIZlQ3aw9IVbxwbBHkjLcoWDPqMvI/edit?usp=sharing
 - **Sprint board update**: Sprint board screenshotları:  
 
 - **Ürün Durumu**: Ekran görüntüleri:
-
+ <h1>
+<div id="header" align="center"> 
+ <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1130235938790969384/WhatsApp_Image_2023-07-16_at_23.19.35.jpg" width="800px"/>
+ </h1>
+ <h1>
+<div id="header" align="center"> 
+ <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1130235952988704949/WhatsApp_Image_2023-07-16_at_23.27.59.jpg" width="800px"/>
+ </h1>
+ <h1>
+<div id="header" align="center"> 
+ <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1130238853274402816/aa.jpg" width="800px"/>
+ </h1>
  
   
- **Sprint Review**: Alınan kararlar: 
+ **Sprint Review**: Alınan kararlar: Son sprint olan bu sprintte eski sprintteki tamamlanmamış kısımları öncelikli tutup, büyük oranda oyunumuzu tamamlamaya çalıştık.Karakter assetlerinin bazılarında sorun olduğu için burada bir revizeye gidip, oyuna ilk sprintte başladığımız karakterlerden farklı karakterler entegre ederek, durumu en kısa sürede telafi ettik.Sprint Review katılımcıları: Tüm takım tarafından onaylanmıştır.
 
-  **Sprint Retrospective:**
+ **Sprint Retrospective:**
+Sürecin ilerleyişi adına düşündüğümüz planlamaları uygulamaya geçirme kısımlarında biraz zorlandık.Gerek bireysel yoğunluk gerekse farklı sebebeplerden hızımızı bir türlü istediğimiz seviyede tutamadık.Görev dağılımı süreçlerinde de tabiki herkesin kodlama ve diğer bilgileri dahilinde bir dağılım sergilemek istesekte bazı kısımlarda iş yükü paylaşımında dengesizlikler yaşadık.Ama sürecin sonuna geldiğimizde takım olarak başladığımız bu projeyi takım olarak bitirmiş bulunuyoruz.Herkesin az çok demeden verdiği emekten mutluluk duyuyoruz.
 
+Son olarak,bu süreç boyunca desteklerini esirgemeyen Oyun Ve Uygulama Akademisine, bize mentorluk için atanmış asistanımıza her şey için teşekkür ediyoruz.
 
-   
-  **Sprint Notları:**
-
-
+ **Sprint Notları:**
+  <h1>
+<div id="header" align="center"> 
+ <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1128751797314539572/dragon1_card.jpg" width="400px"/>
+ </h1>
+ <h1>
+<div id="header" align="center"> 
+ <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1128751797788475472/dragon2_card.jpg" width="400px"/>
+ </h1>
+ <h1>
+<div id="header" align="center"> 
+ <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1128751798199521380/dragon3_card.jpg" width="400px"/>
+ </h1>
+ <h1>
+<div id="header" align="center"> 
+ <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1128751798568636426/dragon4_card.jpg" width="400px"/>
+ </h1>
+ <h1>
+<div id="header" align="center"> 
+ <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1128751798962884688/orc_card.jpg" width="400px"/>
+ </h1>
+ <h1>
+<div id="header" align="center"> 
+ <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1128751799474606100/golem_card.jpg" width="400px"/>
+ </h1>
+<h1>
+<div id="header" align="center"> 
+ <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1130251213141717103/new_dragon22.jpg" width="400px"/>
+ </h1>
+ <h1>
+<div id="header" align="center"> 
+ <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1130251213443711147/new_dragon3.jpg" width="400px"/>
+ </h1>
+  <h1>
+<div id="header" align="center"> 
+ <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1130251213443711147/new_dragon3.jpg" width="400px"/>
+ </h1>
+  <h1>
+<div id="header" align="center"> 
+ <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1130251213796028417/new_dragon4.jpg" width="400px"/>
+ </h1>
+ <h1>
+<div id="header" align="center"> 
+ <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1130251214089617428/new_dragon1.jpg" width="400px"/>
+ </h1>
 
