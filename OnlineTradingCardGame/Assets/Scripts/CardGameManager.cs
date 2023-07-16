@@ -2,7 +2,6 @@ using System;
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
 public class CardGameManager : SingletonDestroy<CardGameManager>
@@ -29,7 +28,21 @@ public class CardGameManager : SingletonDestroy<CardGameManager>
             playerCards.transform.GetChild(i).GetComponent<DragAndDrop>().dragCard = playerHand[i];
         }
     }
-    
+
+    private void Update()
+    {
+        if (enemyMonsters.Count <= 0 && opponentHand.Count <= 0)
+        {
+            GameManager.Instance.turnText.gameObject.SetActive(true);
+            GameManager.Instance.turnText.text = "PLAYER WIN";
+        }
+
+        if (playerMonsters.Count <= 0 && playerHand.Count <= 0)
+        {
+            GameManager.Instance.turnText.gameObject.SetActive(true);
+            GameManager.Instance.turnText.text = "ENEMY WIN";
+        }
+    }
 
     public void CheckMonsters()
     {

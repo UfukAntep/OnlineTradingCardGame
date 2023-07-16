@@ -101,10 +101,9 @@ public class AIMove : MonoBehaviour
         if (Vector3.Distance(NextTarget.position, transform.position) > 3f)
         {
             _rb.freezeRotation = false;
-            transform.LookAt(NextTarget);
+            transform.LookAtY(NextTarget);
             _rb.velocity = (NextTarget.position - transform.position).normalized * 10f;
             
-            // Debug.Log("trying look at and velocity " + _rb.velocity);
             CurrentStateType = StateType.Idle;
             NextStateType = StateType.Walk;
             _controller.SetStateType(this);

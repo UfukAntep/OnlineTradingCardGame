@@ -4796,17 +4796,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHand:
   - {fileID: 11400000, guid: 7dc67b27ee446dc4c89dcc103352b491, type: 2}
-  - {fileID: 11400000, guid: 5a12f3d5c5cb3f44aa60000f7dc5d48c, type: 2}
   - {fileID: 11400000, guid: 32bbf9ee0a8b87e44abf560f46f33c7f, type: 2}
   - {fileID: 11400000, guid: 98283c46abcbbe34c84f6e254241646b, type: 2}
   - {fileID: 11400000, guid: 50ea645721950644fac104b0143d5480, type: 2}
+  - {fileID: 11400000, guid: aa9da5ecd47324247a0233e5ec1a2432, type: 2}
   playerCards: {fileID: 1825891939}
   opponentHand:
   - {fileID: 11400000, guid: aa9da5ecd47324247a0233e5ec1a2432, type: 2}
   - {fileID: 11400000, guid: 00e45e5806f9d88408c2c50f0e663de6, type: 2}
   - {fileID: 11400000, guid: 13dc592dc8f961241b02f3eda3faa764, type: 2}
-  - {fileID: 11400000, guid: 18c54c77a85cba24ba2e835323eac1de, type: 2}
   - {fileID: 11400000, guid: 6297fff79e6cec544b1f557ead4f1d41, type: 2}
+  - {fileID: 11400000, guid: 7dc67b27ee446dc4c89dcc103352b491, type: 2}
   playerSlots:
   - {fileID: 1223232179}
   - {fileID: 1456533743}
