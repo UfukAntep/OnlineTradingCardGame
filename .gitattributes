@@ -1,12 +1,12 @@
 *.tgz filter=lfs diff=lfs merge=lfs -text
 
 # Image formats:
-*.tga filter=lfs diff=lfs merge=lfs -text
+*.tga 
 *.png 
-*.tif filter=lfs diff=lfs merge=lfs -text
-*.jpg filter=lfs diff=lfs merge=lfs -text
-*.gif filter=lfs diff=lfs merge=lfs -text
-*.psd filter=lfs diff=lfs merge=lfs -text
+*.tif 
+*.jpg
+*.gif 
+*.psd 
 
 # Audio formats:
 *.mp3 filter=lfs diff=lfs merge=lfs -text
@@ -14,8 +14,8 @@
 *.aiff filter=lfs diff=lfs merge=lfs -text
 
 # 3D model formats:
-*.fbx filter=lfs diff=lfs merge=lfs -text
-*.obj filter=lfs diff=lfs merge=lfs -text
+*.fbx 
+*.obj 
 
 # Unity formats:
 *.sbsar filter=lfs diff=lfs merge=lfs -text
