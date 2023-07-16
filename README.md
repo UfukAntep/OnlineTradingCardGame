@@ -89,7 +89,7 @@ Yu-Gi-Oh! AR Kart Oyunu, hem Yu-Gi-Oh! fanlarına hem de yeni oyunculara hitap e
 - **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
 
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verilmiştir.
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ikinci sprint'in 100 puan olması gerektiğine karar verilmiştir.
 
 
 - **Daily Scrum**: Daily Scrum toplantılarının takımdaki kişilerin iş ve yoğunlukları göz önünde bulundurularak çoğunlukla Whatsapp üzerinden yapılması kararı devam ettirilmiştir.Bunun yanında kurulan discord kanalı üzerinden, sürecin devamlılığı ve projenin geliştirilmesi adına belirli zamanlarda toplantılar gerçekleştirilmiştir. Sprint 2 Daily Scrum Chats Örneği: https://docs.google.com/document/d/1vySK1uO7mqEGa9BIZlQ3aw9IVbxwbBHkjLcoWDPqMvI/edit?usp=sharing
@@ -126,4 +126,28 @@ kararlaştırıldı.
 Son sprinte girerken discord toplantılarını arttırarak daha hızlı bir ilerleme ile projeyi tamamlamayı hedefliyoruz.
 
 ---
+# Sprint 3
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 140 Puan
+
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde üçüncü yani son sprint'in 140 puan olması gerektiğine karar verilmiştir.
+
+
+- **Daily Scrum**: Daily Scrum toplantılarının takımdaki kişilerin iş ve yoğunlukları göz önünde bulundurularak çoğunlukla Whatsapp üzerinden yapılması kararı devam ettirilmiştir.Bunun yanında kurulan discord kanalı üzerinden, sürecin devamlılığı ve projenin geliştirilmesi adına belirli zamanlarda toplantılar gerçekleştirilmiştir. Sprint 2 Daily Scrum Chats Örneği: https://docs.google.com/document/d/1vySK1uO7mqEGa9BIZlQ3aw9IVbxwbBHkjLcoWDPqMvI/edit?usp=sharing
+- **Sprint board update**: Sprint board screenshotları:  
+
+- **Ürün Durumu**: Ekran görüntüleri:
+
+ 
+  
+ **Sprint Review**: Alınan kararlar: 
+
+  **Sprint Retrospective:**
+
+
+   
+  **Sprint Notları:**
+
+
 
