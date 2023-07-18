@@ -16,6 +16,7 @@ Takım Unity 75
 -- OnlineTradingCardGame--
 
 ## Product Backlog URL
+- Paket linkleri de bu bölümde
 https://miro.com/app/board/uXjVMASgsPw=/?share_link_id=99303011684
 
 
