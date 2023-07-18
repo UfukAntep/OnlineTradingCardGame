@@ -54,6 +54,6 @@ public class GameManager : SingletonDestroy<GameManager>
     private IEnumerator TurnTextState(bool state, float waitTime)
     {
         yield return new WaitForSeconds(waitTime);
-        turnText.gameObject.SetActive(state);
+        //turnText.gameObject.SetActive(state);
     }
 }

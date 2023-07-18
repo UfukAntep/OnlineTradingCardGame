@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   monsterName: card 5
   monsterObject: {fileID: 1067925524328404, guid: 099ece83f393f234fa55a2168b03745d, type: 3}
-  frontSide: {fileID: 21300000, guid: 1af581a33e1721c43bd8ca9d9a240d85, type: 3}
-  backSide: {fileID: 21300000, guid: 1af581a33e1721c43bd8ca9d9a240d85, type: 3}
+  frontSide: {fileID: 21300000, guid: f9173b672561c7442a47dafbfda14a92, type: 3}
+  backSide: {fileID: 21300000, guid: f9173b672561c7442a47dafbfda14a92, type: 3}
   attack: 1
   health: 30
   cost: 0
