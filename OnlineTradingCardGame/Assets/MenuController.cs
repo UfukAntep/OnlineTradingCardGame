@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class MenuController : MonoBehaviour
 {
-    public GameObject playMenu,teamMenu;
+    public GameObject playMenu,teamMenu, mainMenuQuestion;
 
     public void GithubLink()
     {
         Application.OpenURL("https://github.com/UfukAntep/OnlineTradingCardGame");
+    }
+    
+    public void MainMenuScreen()
+    {
+        mainMenuQuestion.SetActive(!mainMenuQuestion.activeSelf);
     }
 
     public void MainMenu()
