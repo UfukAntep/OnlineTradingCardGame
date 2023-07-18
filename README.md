@@ -22,8 +22,11 @@ https://miro.com/app/board/uXjVMASgsPw=/?share_link_id=99303011684
 ## Ürün Açıklaması
 
 OnlineTradingCardGame popüler bir kart oyunu ve anime serisi olan Yu-Gi-Oh! dan esinlenerek oluşturulmuş, bir strateji oyunudur . Oyun, oyuncuların fantastik yaratıklara ve büyülü kartlara dayanan desteler oluşturduğu ve rakiplerine karşı mücadele ettiği rekabetçi bir oyundur. Artırılmış gerçeklik (AR) teknolojisi ise gerçek dünyayı sanal bir ortamla birleştiren bir teknolojidir.
+
 Bu projede, Yu-Gi-Oh! oyununu artırılmış gerçeklik teknolojisi ile birleştirerek, oyunculara benzersiz bir deneyim sunmayı amaçlıyoruz. Artırılmış gerçeklik teknolojisi sayesinde, oyuncular fiziksel Yu-Gi-Oh! kartlarını kullanarak oyunu gerçek dünyada oynayacaklar. Kartları bir oyun tahtasına yerleştirip mobil cihazlarını kullanarak oyunu başlattıklarında, kartlar canlanacak ve sanal dünyada hareketli karakterlere dönüşecekler.
-AR teknolojisiyle birleşen Yu-Gi-Oh! oyunu, oyunculara birçok avantaj sunar. Oyuncular, kartların canlı karakterlere dönüşerek savaşmasını ve özel yeteneklerini sergilemesini gözlemleyebilirler. Ayrıca, oyun içi stratejileri gerçek dünyadaki oyun tahtasında uygulayabilirler. AR teknolojisi, oyunculara daha etkileşimli ve dinamik bir deneyim sunarak oyunun eğlencesini artırır.
+AR teknolojisiyle birleşen Yu-Gi-Oh! oyunu, oyunculara birçok avantaj sunar. Oyuncular, kartların canlı karakterlere dönüşerek savaşmasını ve özel yeteneklerini sergilemesini gözlemleyebilirler. Ayrıca, oyun içi stratejileri gerçek dünyadaki oyun tahtasında uygulayabilirler. 
+
+AR teknolojisi, oyunculara daha etkileşimli ve dinamik bir deneyim sunarak oyunun eğlencesini artırır.
 Yu-Gi-Oh! AR Kart Oyunu, hem Yu-Gi-Oh! fanlarına hem de yeni oyunculara hitap eden benzersiz bir oyun deneyimi sunar. Artırılmış gerçeklik teknolojisi ile gerçek dünyayı büyülü bir arenaya dönüştürerek, oyunculara kendilerini Yu-Gi-Oh! evrenindeymiş gibi hissettirir. Stratejik hamleler yapma, kartları savaştırma ve rakiplere karşı zafer elde etme heyecanını yaşamak için bu oyunu keşfedin!
 
 ## Ürün Özellikleri
@@ -32,6 +35,11 @@ Yu-Gi-Oh! AR Kart Oyunu, hem Yu-Gi-Oh! fanlarına hem de yeni oyunculara hitap e
 - Fiziksel Yu-Gi-Oh! kartlarını kullanarak oyunu gerçek dünyada oynama imkanı sunar.
 - Kartlar canlı karakterlere dönüşerek hareketli bir şekilde savaşır ve özel yeteneklerini sergiler.
 - Çoklu oyuncu moduyla arkadaşlarınızla veya çevrimiçi rakiplerle oynama imkanı sunar.
+
+## Önemli Uyarı
+
+- Artırılmış gerçeklik (AR) modu deneyimlemek için en aşağıda "Oyun Kartları" bölümüne giderek orada bulunan kartların görsellerini yazıcıdan çıktı alın veya farklı bir telefona bu görselleri indirin. Oyunu başka bir cihaz ile girdikten sonra "Play" kısmındaki "AR Mode" bölümünü açın. Sonra bu görselleri kameraya gösterin.
+- Bu iki yöntemi de yapma imkanınız yok ise, bilgisayar ekranınızı kullanabilirsiniz. Bilgisayar ekranında aşağıdaki görselleri açtıktan sonra telefonunuzdan test edebilirsiniz. Ancak monitörde açtığınız kart, oyun tarafında zemin olarak algılanacağından ötürü bu yöntemde karakterlerin yan gözükeceğini unutmayın.
 
 ## Hedef Kitle
 
@@ -168,7 +176,7 @@ Son olarak,bu süreç boyunca desteklerini esirgemeyen Oyun Ve Uygulama Akademis
  **Sprint Notları:** Oyunumuzda iki mod bulunmakta ilk modda single player modu ile yu gi oh card oyunundaki gibi bilgisayara karşı karakterleri savaştırabilirsiniz,diğer bir modda ar teknolojisini kullanarak oyundaki tüm karakterleri detaylı inceleyebilirsiniz.Aşağıda oyunda kullanılan tüm karakterlerin kart tasarımları yer almaktadır.
  
 
-
+## Oyun Kartları
   <h1>
 <div id="header" align="center"> 
  <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1128751797314539572/dragon1_card.jpg" width="400px"/>
@@ -198,10 +206,6 @@ Son olarak,bu süreç boyunca desteklerini esirgemeyen Oyun Ve Uygulama Akademis
  <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1130251213141717103/new_dragon22.jpg" width="400px"/>
  </h1>
  <h1>
-<div id="header" align="center"> 
- <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1130251213443711147/new_dragon3.jpg" width="400px"/>
- </h1>
-  <h1>
 <div id="header" align="center"> 
  <img src="https://cdn.discordapp.com/attachments/1114574362570403902/1130251213443711147/new_dragon3.jpg" width="400px"/>
  </h1>
