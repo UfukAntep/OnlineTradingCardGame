@@ -13,7 +13,7 @@ Takım Unity 75
 
 ## Ürün İsmi
 
--- OnlineTradingCardGame--
+-- AROnlineTradingCardGame--
 
 ## Product Backlog URL
 - Paket linkleri de bu bölümde
@@ -22,7 +22,7 @@ https://miro.com/app/board/uXjVMASgsPw=/?share_link_id=99303011684
 
 ## Ürün Açıklaması
 
-OnlineTradingCardGame popüler bir kart oyunu ve anime serisi olan Yu-Gi-Oh! dan esinlenerek oluşturulmuş, bir strateji oyunudur . Oyun, oyuncuların fantastik yaratıklara ve büyülü kartlara dayanan desteler oluşturduğu ve rakiplerine karşı mücadele ettiği rekabetçi bir oyundur. Artırılmış gerçeklik (AR) teknolojisi ise gerçek dünyayı sanal bir ortamla birleştiren bir teknolojidir.
+AROnlineTradingCardGame popüler bir kart oyunu ve anime serisi olan Yu-Gi-Oh! dan esinlenerek oluşturulmuş, bir strateji oyunudur . Oyun, oyuncuların fantastik yaratıklara ve büyülü kartlara dayanan desteler oluşturduğu ve rakiplerine karşı mücadele ettiği rekabetçi bir oyundur. Artırılmış gerçeklik (AR) teknolojisi ise gerçek dünyayı sanal bir ortamla birleştiren bir teknolojidir.
 
 Bu projede, Yu-Gi-Oh! oyununu artırılmış gerçeklik teknolojisi ile birleştirerek, oyunculara benzersiz bir deneyim sunmayı amaçlıyoruz. Artırılmış gerçeklik teknolojisi sayesinde, oyuncular fiziksel Yu-Gi-Oh! kartlarını kullanarak oyunu gerçek dünyada oynayacaklar. Kartları bir oyun tahtasına yerleştirip mobil cihazlarını kullanarak oyunu başlattıklarında, kartlar canlanacak ve sanal dünyada hareketli karakterlere dönüşecekler.
 AR teknolojisiyle birleşen Yu-Gi-Oh! oyunu, oyunculara birçok avantaj sunar. Oyuncular, kartların canlı karakterlere dönüşerek savaşmasını ve özel yeteneklerini sergilemesini gözlemleyebilirler. Ayrıca, oyun içi stratejileri gerçek dünyadaki oyun tahtasında uygulayabilirler. 
