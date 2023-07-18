@@ -18,6 +18,7 @@ public class CardGameManager : SingletonDestroy<CardGameManager>
     public List<GameObject> playerMonsters;
     public List<GameObject> enemyMonsters;
 
+    private bool gamefinished;
     // Oyun durumu
     public bool playerTurn = true;
 
@@ -35,12 +36,32 @@ public class CardGameManager : SingletonDestroy<CardGameManager>
         {
             GameManager.Instance.turnText.gameObject.SetActive(true);
             GameManager.Instance.turnText.text = "PLAYER WIN";
-        }
+            gamefinished = true;
+        } else if (playerHand.Count <= 0 && playerMonsters.Count > 0 && playerTurn && !gamefinished)
+        {
+            CheckMonsters();
+            
+            PlayerMonstersCanAttack(true);
+            StartCoroutine(MonstersCanAttack(playerMonsters, 2f));
+            GameManager.Instance.SwitchTurnWithDelay(3f);
+            playerTurn = false;
+        } 
 
         if (playerMonsters.Count <= 0 && playerHand.Count <= 0)
         {
             GameManager.Instance.turnText.gameObject.SetActive(true);
             GameManager.Instance.turnText.text = "ENEMY WIN";
+            gamefinished = true;
+        } else if (opponentHand.Count <= 0 && enemyMonsters.Count > 0 && !playerTurn 
+                   && !(playerMonsters.Count <= 0 && playerHand.Count <= 0) && !gamefinished)
+        {
+            CheckMonsters();
+            for (int i = 0; i < enemyMonsters.Count; i++)
+            {
+                enemyMonsters[i].GetComponent<AIMove>().isAttacked = false;
+            }
+            StartCoroutine(MonstersCanAttack(enemyMonsters, 2f));
+            playerTurn = true;
         }
     }
 
@@ -76,13 +97,13 @@ public class CardGameManager : SingletonDestroy<CardGameManager>
         {
             enemySlots[emptySlotIndex].GetComponent<CardSlot>().PlaceCard(cardToPlay);
             CheckMonsters();
-            StartCoroutine(MonstersCanAttack(enemyMonsters, 1.5f));
+            StartCoroutine(MonstersCanAttack(enemyMonsters, 2f));
             opponentHand.Remove(cardToPlay);
         }
         
         playerTurn = true;
         PlayerMonstersCanAttack(true);
-        StartCoroutine(MonstersCanAttack(playerMonsters, 1.5f));
+        StartCoroutine(MonstersCanAttack(playerMonsters, 2f));
         GameManager.Instance.SwitchTurn();
     }
 

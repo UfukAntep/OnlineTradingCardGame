@@ -51,6 +51,10 @@ public class GameManager : SingletonDestroy<GameManager>
         }
     }
 
+    public void SwitchTurnWithDelay(float waitTime)
+    {
+        Invoke("SwitchTurn", waitTime);
+    }
     private IEnumerator TurnTextState(bool state, float waitTime)
     {
         yield return new WaitForSeconds(waitTime);
